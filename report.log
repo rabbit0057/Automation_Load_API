@@ -1,0 +1,556 @@
+[2022-03-13 13:54:36,275] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 10 seconds
+[2022-03-13 13:54:36,275] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-13 13:54:36,276] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-13 13:54:36,277] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-13 13:54:36,685] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 13:54:36,885] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/pointer/images/random HTTP/1.1" 200 None
+[2022-03-13 13:54:38,105] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 13:54:39,307] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 13:54:39,507] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/frise/images/random HTTP/1.1" 200 None
+[2022-03-13 13:54:40,717] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 13:54:41,913] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 13:54:42,116] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/deerhound/images/random HTTP/1.1" 200 None
+[2022-03-13 13:54:43,328] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 13:54:44,530] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 13:54:44,736] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/bullterrier/images/random HTTP/1.1" 200 None
+[2022-03-13 13:54:45,956] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 13:54:46,139] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-13 13:54:46,140] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-13 13:54:46,140] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-13 13:54:46,141] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-13 13:54:46,183] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-13 13:54:46,185] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-13 13:54:46,185] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-03-13 13:54:46,185] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-13 22:26:42,776] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 20 seconds
+[2022-03-13 22:26:42,776] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-13 22:26:42,777] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-13 22:26:43,287] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:43,492] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/kelpie/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:44,704] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:45,910] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:46,119] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/appenzeller/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:47,382] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:48,585] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:48,791] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/entlebucher/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:50,013] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:51,221] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:51,427] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/bouvier/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:52,629] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:53,835] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:54,045] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/boxer/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:55,263] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:56,457] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:56,661] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/havanese/images/random HTTP/1.1" 200 None
+[2022-03-13 22:26:57,881] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:26:59,087] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:26:59,292] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/corgi/images/random HTTP/1.1" 200 None
+[2022-03-13 22:27:00,502] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-13 22:27:01,704] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-13 22:27:01,908] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/doberman/images/random HTTP/1.1" 200 None
+[2022-03-13 22:27:02,642] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-13 22:27:02,642] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-13 22:27:02,643] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-13 22:27:02,643] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-13 22:27:02,686] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-13 22:27:02,693] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-13 22:27:02,693] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-03-13 22:27:02,693] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:02:16,488] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 20 seconds
+[2022-03-14 00:02:16,488] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:02:16,489] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:02:16,935] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:16,939] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:18,150] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:19,354] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:19,357] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:20,581] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:21,775] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:21,778] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:22,996] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:24,200] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:24,202] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:25,412] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:26,616] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:26,617] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:27,826] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:29,034] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:29,035] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:30,359] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:31,573] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:31,575] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:32,775] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:33,971] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:33,972] Dilips-MacBook-Pro.local/ERROR/locust.user.task: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code: " + res.status_code
+TypeError: can only concatenate str (not "int") to str
+
+[2022-03-14 00:02:35,184] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:02:36,347] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:02:36,348] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:02:36,348] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:02:36,352] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:02:36,397] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:02:36,399] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:02:36,399] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-03-14 00:02:36,399] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:02:57,261] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 20 seconds
+[2022-03-14 00:02:57,261] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:02:57,262] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:02:57,263] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:02:57,689] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:02:57,694] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:02:58,901] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:00,094] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:00,096] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:01,304] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:02,496] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:02,498] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:03,699] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:04,900] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:04,902] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:06,102] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:07,303] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:07,304] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:08,504] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:09,701] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:09,704] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:10,915] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:12,113] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:12,114] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:13,326] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:14,523] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:14,525] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:15,733] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:03:16,932] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:03:16,934] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code is 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:03:17,126] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:03:17,127] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:03:17,127] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:03:17,128] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:03:17,175] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:03:17,176] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:03:17,177] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-03-14 00:03:17,177] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:04:07,120] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 10 seconds
+[2022-03-14 00:04:07,120] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:04:07,120] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:04:07,120] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:04:07,121] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:04:07,508] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:04:07,511] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code == 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:04:08,724] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:04:09,925] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:04:09,930] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code == 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:04:11,143] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:04:12,345] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:04:12,348] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code == 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:04:13,561] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:04:14,761] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:04:14,764] Dilips-MacBook-Pro.local/ERROR/locust.user.task: Unexpected response code
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    assert res.status_code == 400, "Unexpected response code"
+AssertionError: Unexpected response code
+
+[2022-03-14 00:04:15,974] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:04:16,970] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:04:16,970] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:04:16,971] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:04:16,971] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:04:17,010] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:04:17,012] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:04:17,012] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-03-14 00:04:17,012] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:06:17,420] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 10 seconds
+[2022-03-14 00:06:17,420] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:06:17,421] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:06:17,422] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:06:17,824] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:06:20,950] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/hound/images/random HTTP/1.1" 200 None
+[2022-03-14 00:06:22,169] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:06:23,373] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:06:23,578] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/bulldog/images/random HTTP/1.1" 200 None
+[2022-03-14 00:06:24,793] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:06:25,997] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:06:26,201] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/boxer/images/random HTTP/1.1" 200 None
+[2022-03-14 00:06:27,272] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:06:27,273] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:06:27,274] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:06:27,279] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:06:27,318] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:06:27,319] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:06:27,319] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-03-14 00:06:27,319] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:16:06,682] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 10 seconds
+[2022-03-14 00:16:06,682] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:16:06,683] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:16:07,084] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:16:07,087] Dilips-MacBook-Pro.local/ERROR/locust.user.task: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    response.success()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/clients.py", line 302, in _success
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2022-03-14 00:16:08,290] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:16:09,486] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:16:09,490] Dilips-MacBook-Pro.local/ERROR/locust.user.task: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    response.success()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/clients.py", line 302, in _success
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2022-03-14 00:16:10,697] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:16:11,894] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:16:11,897] Dilips-MacBook-Pro.local/ERROR/locust.user.task: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    response.success()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/clients.py", line 302, in _success
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2022-03-14 00:16:13,102] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:16:14,303] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:16:14,306] Dilips-MacBook-Pro.local/ERROR/locust.user.task: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 309, in run
+    self.execute_next_task()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 334, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/user/task.py", line 346, in execute_task
+    task(self)
+  File "/Users/dilipprakash/PycharmProjects/Locust_Load_Test/locust_load_test.py", line 11, in list_breeds
+    response.success()
+  File "/opt/homebrew/Cellar/locust/2.8.3/libexec/lib/python3.10/site-packages/locust/clients.py", line 302, in _success
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request, you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2022-03-14 00:16:15,504] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:16:16,553] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:16:16,554] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:16:16,554] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:16:16,560] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:16:16,598] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:16:16,599] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:16:16,599] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 1)
+[2022-03-14 00:16:16,599] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/INFO/locust.main: Run time limit set to 10 seconds
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/INFO/locust.main: Starting Locust 2.8.3
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/INFO/locust.runners: Ramping to 1 users at a rate of 1.00 per second
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Ramping to {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Spawning additional {"LoadSeqTest": 1} ({"LoadSeqTest": 0} already running)...
+[2022-03-14 00:18:53,078] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users spawned
+[2022-03-14 00:18:53,079] Dilips-MacBook-Pro.local/DEBUG/locust.runners: All users of class LoadSeqTest spawned
+[2022-03-14 00:18:53,079] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 0 users have been stopped, 1 still running
+[2022-03-14 00:18:53,079] Dilips-MacBook-Pro.local/INFO/locust.runners: All users spawned: {"LoadSeqTest": 1} (1 total users)
+[2022-03-14 00:18:53,079] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: Starting new HTTPS connection (1): dog.ceo:443
+[2022-03-14 00:18:53,472] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:18:53,667] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/mastiff/images/random HTTP/1.1" 200 None
+[2022-03-14 00:18:54,876] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:18:56,077] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:18:56,275] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/keeshond/images/random HTTP/1.1" 200 None
+[2022-03-14 00:18:57,486] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:18:58,676] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:18:58,872] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/dingo/images/random HTTP/1.1" 200 None
+[2022-03-14 00:19:00,080] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:19:01,281] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/list/all HTTP/1.1" 200 None
+[2022-03-14 00:19:01,475] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breed/schipperke/images/random HTTP/1.1" 200 None
+[2022-03-14 00:19:02,680] Dilips-MacBook-Pro.local/DEBUG/urllib3.connectionpool: https://dog.ceo:443 "GET /api/breeds/image/random HTTP/1.1" 200 None
+[2022-03-14 00:19:02,944] Dilips-MacBook-Pro.local/INFO/locust.main: --run-time limit reached. Stopping Locust
+[2022-03-14 00:19:02,945] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping all users
+[2022-03-14 00:19:02,945] Dilips-MacBook-Pro.local/DEBUG/locust.runners: Stopping Greenlet-0
+[2022-03-14 00:19:02,945] Dilips-MacBook-Pro.local/DEBUG/locust.runners: 1 users have been stopped, 0 still running
+[2022-03-14 00:19:02,984] Dilips-MacBook-Pro.local/INFO/locust.main: writing html report to file: Report.html
+[2022-03-14 00:19:02,986] Dilips-MacBook-Pro.local/DEBUG/locust.main: Running teardowns...
+[2022-03-14 00:19:02,986] Dilips-MacBook-Pro.local/INFO/locust.main: Shutting down (exit code 0)
+[2022-03-14 00:19:02,986] Dilips-MacBook-Pro.local/DEBUG/locust.main: Cleaning up runner...
